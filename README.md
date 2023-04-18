@@ -18,7 +18,9 @@ Built with : <br>
 <a href="https://www.alpinejs.dev" target="_blank"> 
 <img src="https://avatars.githubusercontent.com/u/59030169?s=280&v=4" alt="alpine" width="50" height="50"/> </a>&nbsp
 <a href="#" target="_blank"> 
-<img src="https://e7.pngegg.com/pngimages/482/922/png-clipart-application-programming-interface-logo-computer-programming-api-icon-text-logo.png" alt="alpine" width="50" height="50"/> </a>
+<img src="https://e7.pngegg.com/pngimages/482/922/png-clipart-application-programming-interface-logo-computer-programming-api-icon-text-logo.png" alt="alpine" width="50" height="50"/> </a>&nbsp
+<a href="https://laravel-livewire.com/" target="_blank"> 
+<img src="https://laravel-livewire.com/img/twitter.png" alt="alpine" width="50" height="50"/> </a>
 </p>
 
 #
