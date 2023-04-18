@@ -5,6 +5,7 @@
 - [x] Create readme.md
 - [x] Templating engine
 - [ ] User interface conf 
+    - [x] Responsive index 
 - [ ] bla bla blaaaa
 
 Built with : <br>
