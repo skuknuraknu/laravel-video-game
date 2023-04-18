@@ -1,3 +1,5 @@
+# Laravel video Game App
+
 ## Todos <3
 - [x] create readme.md
 - [x] templating engine
@@ -30,6 +32,9 @@ Built with : <br>
 <img src="https://laravel-livewire.com/img/twitter.png" alt="alpine" width="50" height="50"/> </a>
 </p>
 
+## Progress
+🟢🟢🟢⚪⚪⚪⚪⚪⚪⚪ <br>
+    
 ### Screenshots
 > Home | 1
 ![popular-games](https://user-images.githubusercontent.com/106018819/232819602-a0c5f8c2-e136-4bd8-b280-0418f0afda37.png) <br> <br>
