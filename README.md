@@ -1,7 +1,7 @@
 ## Todos <3
 - [x] create readme.md
 - [x] templating engine
-- [x] user interface conf 
+- [x] user interface with tailwindcss 
     - [x] responsive index
     - [x] responsive single page
 - [x] api
