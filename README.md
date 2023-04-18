@@ -1,12 +1,19 @@
-<p align="center"><img src="https://64.media.tumblr.com/a1a29f53c99238dfa06a2b5f2055ee19/tumblr_nfk4pt6Z7I1tcw4lfo1_400.gif"></p>
-
-# Laravel Movie App
-
-- [x] Create readme.md
-- [x] Templating engine
-- [ ] User interface conf 
-    - [x] Responsive index 
-- [ ] bla bla blaaaa
+## Todos <3
+- [x] create readme.md
+- [x] templating engine
+- [x] user interface conf 
+    - [x] responsive index
+    - [x] responsive single page
+- [x] api
+    - [x] integrate the app with igdb api
+    - [x] fetch game information using an api
+- [x] livewire
+    - [x] create a livewire component that will consume the api
+    - [x] skeleton loader
+- [ ] single game page
+- [ ] add comments
+- [ ] refactoring code
+- [ ] bla bla blaaaaaaa
 
 Built with : <br>
 <p align="left"> 
@@ -23,7 +30,20 @@ Built with : <br>
 <img src="https://laravel-livewire.com/img/twitter.png" alt="alpine" width="50" height="50"/> </a>
 </p>
 
+### Screenshots
+> Home | 1
+![popular-games](https://user-images.githubusercontent.com/106018819/232819602-a0c5f8c2-e136-4bd8-b280-0418f0afda37.png) <br> <br>
+> Single Page | 1
+![single-page-game](https://user-images.githubusercontent.com/106018819/232823592-1c4d5fe6-247f-4e49-82ce-e34c68ca390a.png)
+
+<br><br><br>
+##
+<p align="center">
+<img src="https://thumbs.gfycat.com/SmugDismalAxolotl-max-1mb.gif"/> <br>
+My AP goin' psycho, lil' mama bad like Michael <br>
+</p>
+
 #
 <p align="center">
-❤️
+Created with ❤️ by Hae
 </p>
