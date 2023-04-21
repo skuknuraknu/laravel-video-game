@@ -9,11 +9,15 @@
 			<div class="lg:ml-12 lg:mr-64">
 				<h2 class="font-semibold text-4xl leading-tight">{{ $searched_game['0']['name'] }}</h2>
 				<div class="text-gray-400">
+					@if($searched_game['0']['genres'] != null)
 					@foreach($searched_game['0']['genres'] as $genre)
 						<span>{{ $genre['name'] }}</span>,
 					@endforeach
+					@endif
 					&middot
+					@if($searched_game[0]['involved_companies'] != null)
 					<span>{{ $searched_game[0]['involved_companies'][0]['company']['name']}}</span>
+					@endif
 					&middot
 					<span>Playstation 5</span>
 				</div>
@@ -51,12 +55,11 @@
 		<div class="images-container border-b border-gray-800 pb-12 mt-8">
 			<h2 class="text-blue-400 tracking-wide font-semibold">Images</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8">
+				@foreach($searched_game['0']['screenshots'] as $item)
 				<div>
-					<img class="h-52 hover:opacity-75 transition ease-in-out duration-150" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iEUro2HzgsHY/v0/-1x-1.jpg" alt="image-1">
+					<img class="h-52 hover:opacity-75 transition ease-in-out duration-150" src="{{ Str::replaceFirst('thumb', 'cover_big', $item['url']) }}" alt="image-1">
 				</div>
-				<div>
-					<img class="h-52 hover:opacity-75 transition ease-in-out duration-150" src="https://media.gq-magazine.co.uk/photos/617807d7798fc9786e6d6ece/3:2/w_1620,h_1080,c_limit/Guardians%20lead.jpg" alt="image-1">
-				</div>
+				@endforeach
 			</div>
 		</div>
 

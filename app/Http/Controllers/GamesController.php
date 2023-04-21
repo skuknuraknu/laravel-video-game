@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Http;
 use MarcReichel\IGDBLaravel\Models\Game as IGDB;
 use MarcReichel\IGDBLaravel\Models\Search;
@@ -17,7 +18,7 @@ class GamesController extends Controller
         return view("index");
     }
     public function show($slug){
-        $searched_game = IGDB::select(['*'])->where("cover", "!=", null)->where("rating", "!=", null)->where("slug", "=", $slug)->with(['cover', 'genres', 'involved_companies.company',])->limit(15)->get();
+        $searched_game = IGDB::select(['*'])->where("cover", "!=", null)->where("rating", "!=", null)->where("slug", "=", $slug)->with(['screenshots','cover', 'genres', 'involved_companies.company',])->limit(15)->get();
         // dd($searched_game);
         abort_if(!$searched_game, 404);
         return view("show", compact('searched_game'));
