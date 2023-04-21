@@ -1,3 +1,5 @@
+<p align="center"><img src="https://thumbs.gfycat.com/BigheartedAnguishedEasternnewt-size_restricted.gif" /></p>
+
 # Laravel video Game App
 
 ## Todos <3
@@ -42,11 +44,6 @@ Built with : <br>
 ![single-page-game](https://user-images.githubusercontent.com/106018819/232823592-1c4d5fe6-247f-4e49-82ce-e34c68ca390a.png)
 
 <br><br><br>
-##
-<p align="center">
-<img src="https://thumbs.gfycat.com/SmugDismalAxolotl-max-1mb.gif"/> <br>
-My AP goin' psycho, lil' mama bad like Michael <br>
-</p>
 
 #
 <p align="center">
