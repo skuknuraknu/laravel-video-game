@@ -14,10 +14,10 @@
 - [x] livewire
     - [x] create a livewire component that will consume the api
     - [x] skeleton loader
-- [ ] single game page
-- [ ] add comments
+- [ ] add docs
+- [ ] live search dropdown(agolia, etc...)
 - [ ] refactoring code
-- [ ] bla bla blaaaaaaa
+- [ ] many more ...... >_<
 
 Built with : <br>
 <p align="left"> 
