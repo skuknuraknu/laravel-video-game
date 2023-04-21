@@ -45,6 +45,8 @@ Built with : <br>
 
 <br><br><br>
 
+> whoever saw this repo, feel free to contribute, dattebasa.
+
 #
 <p align="center">
 Created with ❤️ by Hae
